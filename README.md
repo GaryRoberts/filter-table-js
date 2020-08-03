@@ -1,5 +1,6 @@
 # Filter-table-js
-What is this?
+
+#What is this?
 Js package which allows easy filtering of html tables
 
 # Installation
