@@ -9,9 +9,9 @@ Js package which allows easy filtering of html tables
 Then
 
 ```
-import {filter-table} from 'filter-table-js';
+import {filter_table} from 'filter-table-js';
 
-filter-table({
+filter_table({
    input_field:'search',
    table_id:'table1' 
 });
