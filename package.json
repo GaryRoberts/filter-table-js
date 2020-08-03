@@ -1,0 +1,22 @@
+{
+  "name": "filter-table-js",
+  "version": "1.0.0",
+  "description": "package to filter html tables easy",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GaryRoberts/filter-table-js.git"
+  },
+  "keywords": [
+    "filter-table"
+  ],
+  "author": "Gary Roberts",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GaryRoberts/filter-table-js/issues"
+  },
+  "homepage": "https://github.com/GaryRoberts/filter-table-js#readme"
+}
