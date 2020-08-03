@@ -12,7 +12,14 @@ Then
 import {filter_table} from 'filter-table-js';
 
 var inputField = document.getElementById("myInput");  
-inputField.setAttribute("onkeyup","filter_table({input_field:this.id,table_id:'myTable',column:0 })");
+inputField.onkeypress = function(){
+    
+return filter_table({
+   input_field:this.id,
+   table_id:'myTable',
+   column:'0' 
+    })
+ };
 ```
 
 # Options
