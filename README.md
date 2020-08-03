@@ -27,4 +27,4 @@ return filter_table({
 Filter table js has 2 options which are both required
 * *input_field* - should be id of search input
 * *table_id* - should be id of table to filter
-* column* - should be the array index of the column you prefer to filter on(for example column 1 would be '0')
+* *column* - should be the array index of the column you prefer to filter on(for example column 1 would be '0')
