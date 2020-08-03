@@ -2,11 +2,10 @@ function filter_table(options)
 {
     var input, filter, table, tr, td, i, txtValue;
 
-    if(options.input_field)
-    input = document.getElementById(options.input_field);
-    
-    if(options.table_id)
-    table = document.getElementById(options.table_id);
+    if(options.input_field!=null && options.table_id!=null)
+    {
+      input = document.getElementById(options.input_field);
+      table = document.getElementById(options.table_id);
 
     filter = input.value.toUpperCase();
    
@@ -22,7 +21,7 @@ function filter_table(options)
         }
       }       
     }
-
+  }
 }
 
 module.exports.filter_table=filter_table;
