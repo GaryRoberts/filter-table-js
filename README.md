@@ -11,10 +11,8 @@ Then
 ```
 import {filter_table} from 'filter-table-js';
 
-filter_table({
-   input_field:'search',
-   table_id:'table1' 
-});
+var inputField = document.getElementById("myInput");  
+inputField.setAttribute("onkeyup","filter_table({input_field:this.id,table_id:'myTable',column:0 })");
 ```
 
 # Options
@@ -22,3 +20,4 @@ filter_table({
 Filter table js has 2 options which are both required
 * *input_field* - should be id of search input
 * *table_id* - should be id of table to filter
+* column* - should be the array index of the column you prefer to filter on(for example column 1 would be '0')
