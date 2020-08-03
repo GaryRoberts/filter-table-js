@@ -1,8 +1,10 @@
 function filter_table(options)
 {
+  document.getElementById(options.input_field).addEventListener("keyup", myFunction);
+  
     var input, filter, table, tr, td, i, txtValue;
 
-    if(options.input_field!=null && options.table_id!=null)
+    if(options.table_id!=null)
     {
       input = document.getElementById(options.input_field);
       table = document.getElementById(options.table_id);
